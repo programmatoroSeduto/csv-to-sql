@@ -22,3 +22,7 @@ SQL output:
 - out table name
 
   the name of the table inside the SQL statement; the name of the file is used in case
+
+- don't use VARCHAR
+  
+  use `CHAR()` instead of `VARCHAR()`
